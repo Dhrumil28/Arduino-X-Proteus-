@@ -26,7 +26,7 @@ void loop()
   Serial.print(inches);
   Serial.print("in, ");
   Serial.print(cm);
-  Serial.print("cm");
+  Serial.print("cm");// Hi 
   Serial.println();
   
   delay(100);
@@ -41,3 +41,4 @@ long microsecondsToCentimeters(long microseconds) // method to covert microsec t
 {
    return microseconds / 29 / 2;
 }
+
